@@ -1,0 +1,107 @@
+/* 
+- the font is the default sans-serif font-family
+- the darker color is the css default "teal"
+- the lighter color is the css default "yellowgreen"
+- the top shadow is the css default "lightgray"
+- the bottom shadow is rgb(0, 75, 75)
+- the only other colors are black and white
+- use this background size and image to get the dotted background on the top half 
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle, yellowgreen 1px, rgba(0, 0, 0, 0) 1px); 
+*/
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(0, 128, 128);
+    background-size: 20px 20px;
+    background-image:  radial-gradient(circle, yellowgreen 1px, rgba(0, 0, 0, 0) 1px);
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+   box-shadow: lightslategray 0px 0px 6px 0px;
+}
+.logo{
+    font-size:25px;
+    float: left;
+    margin: 10px;
+}
+.nav{
+    float: right;
+    margin: 10px;
+}
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid yellowgreen;
+    margin: 170px 190px 0px 190px;
+    height: 120px;
+    color: azure;
+    background-color: teal;
+    
+ 
+
+}
+.main-span{
+    font-weight: 600;
+  
+}
+
+button{
+    border-radius: 100px;
+    background-color: yellowgreen;
+    border-color: yellowgreen ;
+
+    
+
+} 
+.location-info{
+    margin-top: 120px;
+    display: flex;
+    background-color: teal;
+    width: ;
+    height: 200px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+section div{
+    color: white;
+   font-size: 30px;
+}
+
+section img{
+    
+    margin-top: 4;
+    width: 100px;
+    height: 80px;
+}
+footer{
+    margin-bottom: px;
+    border: 1px solid black;
+    height: 20px;
+    background-color: teal;
+    box-shadow: 20px 0px 0px 0px;
+    
+    
+}
+
+
+footer span{
+    margin-left: 10px;
+    color: white;
+    
+  
+}
